@@ -131,3 +131,51 @@ h2{
     text-align-last: center;
 }
 
+
+@media (max-width:991px) {
+
+    .header {
+        min-height: 0vh;
+        padding: 100px 30px 30px 30px;
+    }
+
+    .header-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-txt h1{
+        font-size: 80px;
+    }
+
+    .about {
+        padding: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-img {
+        text-align: center;
+    }
+
+    .about-img img {
+        width: 450px;
+        margin-bottom: 15px;
+    }
+
+    .butons a{
+        margin: 0 0 10px 0;
+    }
+    .icons-content{
+        margin-top: 0;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+        padding: 0 100px;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
