@@ -17,3 +17,56 @@ img{
     max-width: 100%;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    padding: 50px 0 0 0;
+}
+
+.header-txt{
+    flex-basis: 50%;
+}
+
+.header-txt span{
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+}
+
+.header-txt h1{
+    font-size: 100px;
+    color: white;
+    line-height: 1;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 10px 0 25px 0;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 35px;
+    background-color: aliceblue;
+    text-transform: uppercase;
+    color: gray;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.about {
+    padding: 0 0 100px 0;
+    display: flex;
+    align-items: center;
+}
+.about-img {
+    flex-basis: 40%;
+}
+.about-img img {
+    width: 350px;
+    border-radius: 50px;
+}
