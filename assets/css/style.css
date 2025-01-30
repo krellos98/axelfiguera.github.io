@@ -101,7 +101,7 @@ h2{
 .icons-content{
     margin-top: 70px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 100px;
     justify-content: center;
 }
@@ -115,6 +115,8 @@ h2{
 .footer-content {
     display: flex;
     justify-content: center;
+    text-align: center;
+    
 }
 
 .link h3{
@@ -129,6 +131,7 @@ h2{
     display: block;
     margin-bottom: 10px;
     text-align-last: center;
+    text-decoration: none;
 }
 
 
@@ -173,7 +176,8 @@ h2{
 
     .footer{
         padding: 30px;
-    }
+        }
+    
     .footer-content{
         flex-direction: column;
         text-align: center;
