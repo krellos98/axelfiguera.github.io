@@ -69,4 +69,65 @@ img{
 .about-img img {
     width: 350px;
     border-radius: 50px;
+    border: 5px solid white;
 }
+
+.about-txt{
+    flex-basis: 60%;
+}
+
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.about-txt p{
+    color: #b3b3b3;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.butons a {
+    margin-right:  15px;
+}
+
+.icons-content{
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.icons-content{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    justify-content: center;
+}
+.icons-content img {
+    width: 1000px;
+}
+
+.footer {
+    background-color: #222529;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.link h3{
+    color: aliceblue;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link a{
+    color: aliceblue;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 10px;
+    text-align-last: center;
+}
+
