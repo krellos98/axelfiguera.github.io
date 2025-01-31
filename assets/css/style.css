@@ -76,7 +76,7 @@ img{
     flex-basis: 60%;
 }
 
-h2{
+h2 {
     font-size: 40px;
     text-transform: uppercase;
     color: whitesmoke;
@@ -140,6 +140,26 @@ h2{
     text-decoration: none;
 }
 
+.portafolio{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.portafolio-content{
+    margin-top: 70px;
+}
+.portafolio-1{
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.portafolio-txt {
+    flex-basis: 90%;
+    text-align: left;
+    color: #b3b3b3;
+    }
 
 @media (max-width:991px) {
 
