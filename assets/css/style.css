@@ -89,6 +89,12 @@ h2{
     margin-bottom: 50px;
 }
 
+.about-txt li{
+    color: #b3b3b3;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
 .butons a {
     margin-right:  15px;
 }
